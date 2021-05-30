@@ -34,7 +34,9 @@ clef = {
 
 # Network port settings - let's make it easier to share pollen!
 network = {
-    'base_host_port': 1800,
+    'api_addr_port': 1600,
+    'p2p_addr_port': 1700,
+    'base_debug_api_addr': 1800,
     'base_external_port': 31000,
     'host_ip_addr': "192.168.1.100",
     'external_ip_addr': "199.199.199.199",
